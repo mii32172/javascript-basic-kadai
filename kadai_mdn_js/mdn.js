@@ -10,5 +10,3 @@ console.log(date.toLocaleDateString(undefined, options));
 
 
 
-
-
