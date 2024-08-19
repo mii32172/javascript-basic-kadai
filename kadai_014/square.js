@@ -1,8 +1,7 @@
-//引数で渡した値を二乗した計算結果を戻り値として返す関数を定義
-const  square= (num) => {
-  console.log(num**2);
+// 与えられた引数numを2乗し、その値を戻り値として返す関数を定義する
+const square = (num) => {
+  return num **2;
 }
 
-//関数を呼び出し、引数として二乗の数を渡す
-square(10);
-
+// 関数の戻り値を出力する
+console.log(square(10));
